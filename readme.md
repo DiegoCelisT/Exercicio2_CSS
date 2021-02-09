@@ -1,2 +1,2 @@
-Exercio 02 - HTML
-Pratica de agrupamentos e diversos comandos aprendidos nas Aulas 5 y 6
+Exercio 02 - CCS
+Prática das aulas 5, 6 e 7
