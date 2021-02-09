@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+header div{
+    background-color: #180E0C;
+    color: #FFFFFF;
+    display: flex;
+}
+
+div h1{
+    
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-basis: 35%;
+    margin-left: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 52px;
+}
+
+header div nav{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-basis: 75%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+
+header div img{
+    display: inline-flex;
+    flex-basis: 100%;
+    justify-content: center;
+    background-color: black;
+}
