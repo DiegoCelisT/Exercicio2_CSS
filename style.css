@@ -212,9 +212,10 @@ section nav ul li{
 }
 
 
-.menu{
+.menu, .menu-nav{
     display: none;
 }
+
 
 /*Código para responsibidade de celular (375px) iPhone X*/
 
@@ -308,30 +309,69 @@ header div h1{
 }
 
 .menu{
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 37px;
+    padding: 12pt;
     
     
 }
 .menu img{
-    display: inline-flex;
+    display: flex;
     width: 27px;
     height: 18px;
     align-self: center;
-    justify-self: flex-end;
+    justify-self: center;
+}
+.menu-nav nav a:first-of-type{
+    background-color: #37201A;;
+}
+.menu:hover{
+    background-color: rgb(83, 203, 215);
+    border-radius: 50%;
+    
+}
+
+.menu-nav{
+    display: none;
+}
+
+.menu-nav nav{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    background-color: #37201A;
+    width: 134px;
+    height: 134px;
+    position: absolute;
+    top: 60px;
+    right: 16px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;    
+}
+
+.menu-nav nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 10pt;
+    padding: 12pt;
+    line-height: 15pt;
+    padding: 5px;
+}
+
+.menu:hover > div{
+    display: flex;
 }
 
 #Ultimas_Viagens{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     flex-basis: 100vw;
-    padding: 36px 26px 36px 36px;
+    padding: 36px;
     margin: 0pt;
 }
 
@@ -339,8 +379,7 @@ header div h1{
     display: flex;
     flex-direction: column;
     flex-basis: 146px;
-    padding-right: 10px;
-    padding-bottom: 36px;
+    padding: 0px 0px 36px 0px;
 }
 
 #Ultimas_Viagens article img{
@@ -437,13 +476,6 @@ section nav ul li{
     line-height: 12.88pt;
     padding: 0pt;  
 }
-
-
-
-
-
-
-
 
 footer{
     background-color: #180E0C;
