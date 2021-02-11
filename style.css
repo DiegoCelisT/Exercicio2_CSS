@@ -2,9 +2,6 @@
     box-sizing: border-box;    
 }
 
-@media (min-width:401px)
-{
-
 body{
     display: block;
     margin: 0px;
@@ -214,7 +211,7 @@ section nav ul li{
     font-size: 18px;
 }
 
-}
+
 .menu{
     display: none;
 }
@@ -270,7 +267,7 @@ section nav ul li{
 body{
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
+    
 }
 
 header{
@@ -335,6 +332,7 @@ header div h1{
     justify-content: center;
     flex-basis: 100vw;
     padding: 36px 26px 36px 36px;
+    margin: 0pt;
 }
 
 #Ultimas_Viagens>article{
@@ -360,7 +358,92 @@ header div h1{
 #Ultimas_Viagens article p{
     font-size: 10pt;
     line-height: 16.1pt;
+    text-align: left;
 }
+
+aside{
+    padding: 36px;
+}
+aside article h2{
+    font-size: 21pt;
+    font-weight: bold;
+    line-height: 28px;
+    padding: 10px 0px 30px 0px;
+}
+aside article{
+    padding: 0px 0px 12px 0px;
+} 
+figure{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 13px;
+}
+
+figure img{
+    height: 70px;
+    width: 70px;
+}
+
+figcaption{
+    padding-left: 10px;
+    font-size: 13pt;
+    text-align: left;
+}
+
+aside article p{
+    font-size: 13pt;
+    padding-top: 10pt;
+    text-align: left;
+}
+
+section{
+    padding: 36px;
+}
+
+section article h2{
+    font-size: 13pt;
+    color: #C27159;
+    font-weight: bold;
+    line-height: 17pt;
+}
+
+section article p{
+    font-size: 8pt;
+    color: #7A503E;
+    text-align: left;
+    line-height: 12.88pt;
+}
+
+section article p:first-of-type{
+    color: #C27159;
+    text-align: left;
+}
+
+section nav h2{
+    font-size: 13pt;
+    color: #C27159;
+    font-weight: bold;
+    line-height: 17pt;
+}
+
+section nav{
+    padding: 0pt;
+}
+
+section nav ul li{
+    font-size: 8pt;
+    color: #7A503E;
+    text-align: left;
+    line-height: 12.88pt;
+    padding: 0pt;  
+}
+
+
+
+
+
+
+
 
 footer{
     background-color: #180E0C;
